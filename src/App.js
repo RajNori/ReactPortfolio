@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Home from './pages/Home'
 import Projects from './pages/projects';
 import Experience from './pages/Experience';
-//importing navbar as it is part of every single page the user navigates to//
+//importing navbar & footer as it is part of every single page the user navigates to//
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 

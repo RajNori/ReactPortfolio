@@ -1,9 +1,19 @@
 import React from 'react'
+import Projectcard from '../components/Projectcard';
+import sushi from '../assets/Sushi.jpg';
 
-function projects() {
+
+function Projects() {
   return (
-    <div>projects</div>
-  )
-}
+<div className="projects">
+<h1>My Personal Projects</h1>
+<div className='projectlist'>
+<Projectcard name="Recipe website" image={sushi}/>
+</div>
+    </div>
+    );
+  }
+  
 
-export default projects
+
+export default Projects

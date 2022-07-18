@@ -17,7 +17,7 @@ setExpandNavbar(false)
       <div className='toggleButton'>
         <button
           onClick={() => {
-            setExpandNavbar((prev) => !prev);}}>
+            setExpandNavbar((prev) => !prev)}}>
           <ReorderIcon />
         </button>
       </div>
