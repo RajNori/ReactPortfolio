@@ -5,6 +5,7 @@ import Projects from './pages/projects';
 import Experience from './pages/Experience';
 //importing navbar as it is part of every single page the user navigates to//
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
     <Route path= "/projects" element={<Projects />} />
     <Route path= "/experience" element={<Experience />} />
   </Routes>
+  <Footer/>
 </Router>
 
     </div>
