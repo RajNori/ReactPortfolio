@@ -30,7 +30,7 @@ function home() {
         <ol className='list'>
           <li className='item'>
             <h2>Back-End</h2>
-            <span> NodejS, Java, ExpressJS, GraphQL, ApolloServer, MySQL, MongoDB</span>
+            <span> Nodejs, Java, ExpressJS, GraphQL, ApolloServer, MySQL, MongoDB</span>
           </li>
         </ol>
         <ol className='list'>
