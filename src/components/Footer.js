@@ -5,7 +5,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import CopyrightRoundedIcon from '@mui/icons-material/CopyrightRounded';
-import "../styles/Footer.css"
+import '../styles/Footer.css';
 
 function footer() {
   return (

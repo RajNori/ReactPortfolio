@@ -2,8 +2,7 @@ import React from 'react';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import ContactMailRoundedIcon from '@mui/icons-material/ContactMailRounded';
-import '../styles/Home.css'
-
+import '../styles/Home.css';
 
 function home() {
   return (
@@ -24,13 +23,19 @@ function home() {
         <ol className='list'>
           <li className='item'>
             <h2>Front-End</h2>
-            <span>HTML, CSS, SCSS, Bootstrap, Material-UI, TailwindCSS, Javascript, jQuery, React, ReactNative,flutter</span>
+            <span>
+              HTML, CSS, SCSS, Bootstrap, Material-UI, TailwindCSS, Javascript,
+              jQuery, React, ReactNative,flutter
+            </span>
           </li>
         </ol>
         <ol className='list'>
           <li className='item'>
             <h2>Back-End</h2>
-            <span> Nodejs, Java, ExpressJS, GraphQL, ApolloServer, MySQL, MongoDB</span>
+            <span>
+              {' '}
+              Nodejs, Java, ExpressJS, GraphQL, ApolloServer, MySQL, MongoDB
+            </span>
           </li>
         </ol>
         <ol className='list'>
@@ -44,4 +49,4 @@ function home() {
   );
 }
 
-export default home
+export default home;

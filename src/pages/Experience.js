@@ -1,5 +1,8 @@
-import React from 'react'
-import {VerticalTimeline,VerticalTimelineElement } from 'react-vertical-timeline-component';
+import React from 'react';
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import WorkHistoryIcon from '@mui/icons-material/WorkHistory';
 
@@ -78,7 +81,10 @@ function experience() {
               analyze on-page/off-page SEO & SERP metrics to direct website
               strategy and online presence management.
             </li>
-            <li>Specialised in client relationship building which included account management and negotiation of contracts and advertising rates.</li>
+            <li>
+              Specialised in client relationship building which included account
+              management and negotiation of contracts and advertising rates.
+            </li>
             <li>
               Consult with company officials, Marketing departments,and
               advertising agencies to develop promotional plans.
@@ -129,4 +135,4 @@ function experience() {
   );
 }
 
-export default experience
+export default experience;
