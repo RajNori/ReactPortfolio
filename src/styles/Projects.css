@@ -13,7 +13,7 @@
   font-weight: bolder;
 }
 
-.projectcard {
+.projectList {
   width: 100vw;
   height: auto;
   display: grid;
@@ -23,10 +23,7 @@
 
 /* MENU ITEM STYLING */
 
-.projectcard {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.projectItem {
   border-radius: 15px;
   width: 300px;
   height: 300px;
@@ -34,44 +31,43 @@
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
   text-align: center;
 }
-.projectcard:hover {
+.projectItem:hover {
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
   transition: 0.3s ease-in;
   cursor: pointer;
 }
 
-.projectcard .bgImage {
-
+.projectItem .bgImage {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-  width:100%;
-  height:200px; 
+  width: 100%;
+  height: 200px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.projectcard h1 {
+.projectItem h1 {
   font-size: 25px;
 }
 
 @media only screen and (max-width: 1300px) {
-  .projectcard{
+  .projectList {
     grid-template-columns: 1fr 1fr;
   }
 }
 
 @media only screen and (max-width: 800px) {
-  .projectcard {
+  .projectList {
     grid-template-columns: 1fr;
   }
 }
 
 @media only screen and (max-width: 800px) {
-  .projectcard {
+  .projectList {
     width: 100%;
   }
-  .projectcard {
+  .projectItem {
     width: 300px;
     height: 300px;
   }

@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Home from './pages/Home'
 import Projects from './pages/projects';
 import Experience from './pages/Experience';
+import ProjectDisplay from './pages/ProjectDisplay';
 //importing navbar & footer as it is part of every single page the user navigates to//
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -10,17 +11,18 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
-<Router>
-  <Navbar />
-  <Routes>
-    <Route path= "/" element={<Home />} />
-    <Route path= "/projects" element={<Projects />} />
-    <Route path= "/experience" element={<Experience />} />
-  </Routes>
-  <Footer/>
-</Router>
-
+    <div className='App'>
+      <Router>
+     <Navbar />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/Reactportfolio' element={<Home />} />
+          <Route path='/projects' element={<Projects />} />
+          <Route path='/project/:id' element={<ProjectDisplay/>}/>
+          <Route path='/experience' element={<Experience />} />
+        </Routes>
+        <Footer />
+      </Router>
     </div>
   );
 }

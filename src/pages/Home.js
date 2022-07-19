@@ -13,9 +13,18 @@ function home() {
           <p>
             I'm a web developer who is passionate about creating great projects.
           </p>
-          <LinkedInIcon />
-          <GitHubIcon />
-          <ContactMailRoundedIcon />
+          <a
+            href='https://linkedin.com/in/rajnori'
+            target='_blank'
+            rel='noreferrer'
+          >
+            {<LinkedInIcon />}
+          </a>
+
+          <a href='https://github.com/RajNori' target='_blank' rel='noreferrer'>
+            {<GitHubIcon />}
+          </a>
+          <a href="mailto:contact@rajnori.com?subject=website-contact">{<ContactMailRoundedIcon />}</a>
         </div>
       </div>
       <div className='skills'>

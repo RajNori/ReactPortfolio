@@ -23,8 +23,7 @@
   color: #e9d35b;
   height: 50px;
 }
-
-.about .prompt {
+.about .prompt a{
   width: 40%;
   font-size: 30px;
 }
