@@ -43,7 +43,7 @@ A *portfolio project* to showcase my full-stack we development projects.
 My motivation was to create a professional portfolio as a web developer where potential employers can view my profile and understand my capabilities a web developer.
  
 I buit the project to create a friendly yet professional place online where both employers and peers can review and see my work.
-Most employers do not like to look at a resume with bullet points on them, they want to get a feel for what the employee can bring to the table both skills wise as well as people and culture wise. Is this person a good fit? Wh
+Most employers do not like to look at a resume with bullet points on them, they want to get a feel for what the employee can bring to the table both skills wise as well as people and culture wise. 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
