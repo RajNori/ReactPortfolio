@@ -7,6 +7,8 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=rajnori" alt="rajnori" /></a> </p>
 
+- A `link` to the deployed application can be found here * [React-portfolio](https://rajnori.github.io/Reactportfolio/) *
+
 - 🌱 I’m currently a **full stack web developer**
 
 - 👨‍💻 All of my projects are available at [https://rajnori.github.io/Portfolio-project/](https://rajnori.github.io/Portfolio-project/)
