@@ -8,6 +8,9 @@
 
 - 🌱 I’m currently a **full stack web developer**
 
+
+- A `link` to the deployed application can be found here * [React-portfolio](https://rajnori.github.io/Reactportfolio/) *
+
 - 👨‍💻 All of my projects are available at [https://rajnori.github.io/Portfolio-project/](https://rajnori.github.io/Portfolio-project/)
 
 - 📝 I regularly write articles on [https://rajnori.github.io/Portfolio-project/](https://rajnori.github.io/Portfolio-project/)
