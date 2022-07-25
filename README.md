@@ -47,11 +47,7 @@ A *portfolio project* to showcase my full-stack we development projects.
 
   > `Node.js` . 
 
-  > `Express middleware` . 
-
-  > `SQL` . 
-
-  > `Sequalize ORM` . 
+  > `Express` . 
 
   > `Mongodb` . 
 
